@@ -42,4 +42,4 @@
   unused-packages = true
 
 [metadata.heroku]
-  root-package = "github.com/hangulize/hangulize-phonemize.herokuapp.com"
+  root-package = "github.com/hangulize/phonemize.herokuapp.com"
