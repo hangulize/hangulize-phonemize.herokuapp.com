@@ -1,0 +1,6 @@
+build:
+  langauge:
+  - go
+
+run:
+  web: ./hangulize-phonemize.herokuapp.com
