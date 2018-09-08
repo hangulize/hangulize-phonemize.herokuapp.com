@@ -27,15 +27,13 @@ func register(r gin.IRouter) {
 	r.GET("/:phonemizer/:word", handler)
 }
 
-func init() {
-	router := gin.New()
-	register(router)
-}
-
 func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
 		log.Fatal("$PORT must be set")
 	}
+
+	router := gin.New()
+	register(router)
 	router.Run(":" + port)
 }
