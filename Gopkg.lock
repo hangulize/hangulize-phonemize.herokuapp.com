@@ -38,15 +38,15 @@
   revision = "5a0f697c9ed9d68fef0116532c6e05cfeae00e55"
 
 [[projects]]
-  digest = "1:d5379ce3a71b4bc7e68413dd2e6c8f1f02106638d41282c34f6cfe8a001f2859"
+  digest = "1:a3914b5e539585904ae22ebb96a1f96db00bdb0265a67f2647e71fbd84753ada"
   name = "github.com/hangulize/hangulize"
   packages = [
     "phonemize/furigana",
     "phonemize/pinyin",
   ]
   pruneopts = "UT"
-  revision = "aa25734de6b61849996b7cb4e6416af4db46a62a"
-  version = "0.2.11"
+  revision = "f2f2a045afc98ff52c677a2b30bd3e09c392a454"
+  version = "0.2.12"
 
 [[projects]]
   branch = "master"
@@ -115,6 +115,21 @@
   packages = ["unix"]
   pruneopts = "UT"
   revision = "917fdcba135dcbaccd57425db91723541b4427c8"
+
+[[projects]]
+  digest = "1:8029e9743749d4be5bc9f7d42ea1659471767860f0cdc34d37c3111bd308a295"
+  name = "golang.org/x/text"
+  packages = [
+    "internal/gen",
+    "internal/triegen",
+    "internal/ucd",
+    "transform",
+    "unicode/cldr",
+    "unicode/norm",
+  ]
+  pruneopts = "UT"
+  revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
+  version = "v0.3.0"
 
 [[projects]]
   digest = "1:1b4724d3c8125f6044925f02b485b74bfec9905cbf579d95aafd1a6c8f8447d3"
